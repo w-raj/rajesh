@@ -36,3 +36,10 @@ footer {
       text-align: center;
       margin-top: 50px;
     }
+
+.accent-rtm {
+      font-size: 1.2em;
+      color: rgb(20, 123, 220);
+      font-weight: bold;
+      vertical-align: super;
+    }
