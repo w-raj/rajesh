@@ -67,3 +67,24 @@ footer {
       font-size: 18px;
       color: #333;
     }
+
+.main-image {
+      width: 300px;
+      height: auto;
+      display: block;
+    }
+
+    .icon-image {
+      position: absolute;
+      bottom: 30px;
+      right: 30px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%; /* optional: makes it circular */
+      border: 2px solid white;
+    }
+
+    .image-wrapper {
+      position: relative;
+      display: inline-block;
+    }
