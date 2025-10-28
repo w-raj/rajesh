@@ -8,7 +8,7 @@ body {
 header {
   background-color: #004080;
   color: white;
-  padding: 20px;
+  padding: 0px;
   text-align: center;
 }
 
@@ -34,12 +34,36 @@ footer {
 
  .center-text {
       text-align: center;
-      margin-top: 50px;
+      margin-top: 20px;
     }
 
 .accent-rtm {
       font-size: 1.2em;
-      color: rgb(20, 123, 220);
+      color: rgb(149, 205, 207);
       font-weight: bold;
       vertical-align: super;
+    }
+
+ .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Two equal columns */
+      gap: 20px;
+    }
+    .grid-item {
+      padding: 20px;
+      background-color: #e0f7fa;
+      border: 1px solid #aaa;
+      text-align: center;
+    }
+
+.contact-info {
+      text-align: center;
+      margin-top: 50px;
+      font-family: Arial, sans-serif;
+    }
+
+.lucida-text {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+      font-size: 18px;
+      color: #333;
     }
